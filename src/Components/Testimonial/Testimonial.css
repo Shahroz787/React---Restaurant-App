@@ -1,0 +1,34 @@
+.single_testimonial h6 {
+  color: #f5b70a;
+  font-size: 1.1rem;
+}
+
+.single_testimonial p {
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+@media only screen and (max-width: 992px) {
+  .slider_content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px !important;
+  }
+
+  .single_testimonial p {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .slider_wrapper {
+    flex-direction: column;
+  }
+
+  .slider_content {
+    width: 100% !important;
+  }
+
+  .slider_img {
+    display: none;
+  }
+}
